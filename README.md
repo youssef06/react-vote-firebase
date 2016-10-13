@@ -1,5 +1,5 @@
-Simple React Voting App 
-=======================
+Simple React-Firebase Voting App 
+================================
 Check demo [here](http://youssef06.github.io/react-vote-firebase/index.html)
 
 This is a copy of [React-Vote](https://github.com/youssef06/react-vote)
