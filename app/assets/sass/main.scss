@@ -1,0 +1,57 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+body {
+  background-color: rgba(130, 69, 228, 0.07);
+}
+h1 {
+  color: #A183C7;
+  text-align: center;
+  font-size: 66px;
+}
+#app {
+  margin-top: 20px;
+}
+.box {
+  box-shadow: 0 0px 2px 0 rgba(78, 85, 88, 0.34), 0 20px 20px 0 rgba(0, 0, 0, 0.09);
+  margin-top: 15px;
+  background-color: white;
+}
+.box .box-header input {
+  line-height: 1.4em;
+  font-size: 24px;
+  padding: 15px 15px 15px 7px;
+  border: none;
+  height: 70px;
+  outline: none;
+  box-shadow: none;
+}
+.box .box-header button {
+  border-radius: 0;
+  height: 70px;
+  background-color: #60C8A0;
+  border-color: #60C8A0;
+}
+.box table tr>td:first-child {
+  padding-left: 20px;
+  font-size: 22px;
+  color: #525252;
+}
+.box table tr>td:nth-child(2) {
+  text-align: center;
+  position: relative;
+}
+label {
+  display: inline-block;
+  padding-left: 1.5em;
+  position: relative;
+  cursor: pointer;
+}
+.text-red {
+  color: red;
+}
+.text-green {
+  color: green;
+}
+.text-gray {
+  color: grey;
+}
